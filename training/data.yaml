@@ -1,0 +1,18 @@
+# YOLOv8 Gesture Recognition Dataset Configuration
+# Generated during Google Colab training (Merged Dataset 1 + Dataset 2)
+
+path: .
+train:
+  - dataset1/images/train
+  - dataset2/images/train
+val:
+  - dataset1/images/val
+  - dataset2/images/val
+
+# 5 Hand Posture Classes
+names:
+  0: okay
+  1: spiderman
+  2: like
+  3: dislike
+  4: rock
