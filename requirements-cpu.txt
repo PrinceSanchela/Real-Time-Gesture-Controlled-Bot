@@ -1,0 +1,25 @@
+# ==============================================================================
+# Real-Time Gesture Controlled Robot - CPU Runtime Requirements
+# ==============================================================================
+# Optimized for running YOLOv8 gesture inference on CPU without requiring an
+# NVIDIA GPU or CUDA installation.
+#
+# Installation:
+#   pip install -r requirements-cpu.txt
+# ==============================================================================
+
+# PyTorch CPU binary distribution from official PyTorch repository
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Core Deep Learning & Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.100
+opencv-python>=4.8.0.76
+
+# Network Communication
+websocket-client>=1.6.1
+
+# Numerical Utilities
+numpy>=1.23.5,<2.0.0
+Pillow>=9.5.0

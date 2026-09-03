@@ -1,0 +1,25 @@
+# ==============================================================================
+# Real-Time Gesture Controlled Robot - GPU / CUDA Runtime Requirements
+# ==============================================================================
+# Optimized for NVIDIA GPU acceleration (CUDA 12.1+ / 11.8).
+# Ensure compatible NVIDIA drivers (>= 525.60.13) are installed.
+#
+# Installation:
+#   pip install -r requirements-cuda.txt
+# ==============================================================================
+
+# PyTorch CUDA 12.1 binary distribution from official PyTorch repository
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Core Deep Learning & Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.100
+opencv-python>=4.8.0.76
+
+# Network Communication
+websocket-client>=1.6.1
+
+# Numerical Utilities
+numpy>=1.23.5,<2.0.0
+Pillow>=9.5.0

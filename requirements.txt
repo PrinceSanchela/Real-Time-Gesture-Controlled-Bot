@@ -1,0 +1,15 @@
+# ==============================================================================
+# Real-Time Gesture Controlled Robot - Dependencies
+# ==============================================================================
+# NOTE: For environment-specific setups, please use:
+#   CPU:  pip install -r requirements-cpu.txt
+#   CUDA: pip install -r requirements-cuda.txt
+# ==============================================================================
+
+ultralytics>=8.0.100
+opencv-python>=4.8.0.76
+websocket-client>=1.6.1
+numpy>=1.23.5,<2.0.0
+Pillow>=9.5.0
+torch>=2.0.0
+torchvision>=0.15.0
